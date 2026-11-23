@@ -3,7 +3,7 @@
 식약처·FDA·CE 인허가 문서를 AI로 자동 생성하는 의료기기 규제문서 자동화 서비스 **MediFrame**의 랜딩페이지입니다.
 
 - 라이브: https://lichardkim-create.github.io/mediframe-landing/
-- `index.html`: 정적 배포본. 외부 라이브러리 없는 단일 파일이고, 모바일과 다크 모드를 지원합니다.
+- `index.html`: 정적 배포본. 빌드 과정 없이 바로 열리는 페이지이고, 모바일과 다크 모드를 지원합니다.
 - `preview.jpg`: 데스크톱 1440px 미리보기
 - `assets/logo-symbol.png`: 로고 심볼 (배경 투명, 라이트·다크 공용)
 - `assets/app-icon.png`: 앱 아이콘 (파비콘)
