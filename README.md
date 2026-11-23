@@ -5,6 +5,12 @@
 - 라이브: https://lichardkim-create.github.io/mediframe-landing/
 - `index.html`: 정적 배포본. 외부 라이브러리 없는 단일 파일이고, 모바일과 다크 모드를 지원합니다.
 - `preview.jpg`: 데스크톱 1440px 미리보기
+- `assets/logo-symbol.png`: 로고 심볼 (배경 투명, 라이트·다크 공용)
+- `assets/app-icon.png`: 앱 아이콘 (파비콘)
+
+## 브랜드
+
+색과 서체는 MediFrame 로고에 맞췄습니다. 시안 `#12b5f2` → 블루 `#1f5bf0` → 인디고 `#3a14e0` 그라디언트를 버튼·강조어·CTA에 쓰고, 글자는 로고 워드마크의 네이비 `#0b1650`입니다. 제목 서체는 Outfit, 본문은 IBM Plex Sans KR입니다. 로고 하단 문구(HEALTHCARE ADVERTISING PLATFORM)는 페이지 내용과 맞지 않아 쓰지 않았습니다.
 
 ![preview](preview.jpg)
 
