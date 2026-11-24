@@ -25,7 +25,16 @@
 7. 대상 고객
 8. 데모 신청 양식
 
-> 데모 신청 양식은 입력값만 확인하는 예시이고 실제로 접수되지는 않습니다. 접수처(이메일, 폼 서비스, DB)를 연결해야 합니다.
+## 데모 신청 접수 (Supabase)
+
+양식은 Supabase의 `demo_requests` 테이블에 신청을 저장합니다. 처음 한 번 아래처럼 연결하세요.
+
+1. Supabase에서 새 프로젝트를 만듭니다.
+2. SQL Editor에 `supabase/demo_requests.sql` 내용을 붙여넣고 Run 합니다.
+3. Project Settings → API Keys에서 Project URL과 Publishable key(`sb_publishable_...`)를 복사합니다.
+4. `index.html` 아래쪽 `<script>`의 `SUPABASE_URL`, `SUPABASE_KEY`에 넣고 커밋합니다.
+
+신청 내역은 Supabase 대시보드 → Table Editor → `demo_requests`에서 봅니다. 공개 키로는 신청을 추가만 할 수 있고 내역을 읽을 수 없습니다. 연결 전에는 양식이 "아직 연결되지 않았습니다"라고 안내합니다.
 
 ## 이전 버전
 
